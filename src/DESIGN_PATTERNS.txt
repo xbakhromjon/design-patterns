@@ -1,0 +1,19 @@
+                            Design Patterns
+1. Chain of Responsibility -
+    Explanation:
+                    Aytaylik bir dasturda "bug" chiqib qoldi. Foydalanuvchida shu "bug" tufayli
+                    muammo chiqdi. Foydalanuvchi dasturni yaratgan kompaniyaning telefon raqamiga qo'ng'iroq qiladi.
+                    Telefonni operator operator olib, muammosini eshitadi, agar hal qilib bera olsa, hal qiladi. Aks
+                    holda "project manager" ga bu muammoni aytadi. "Project Manager" ham  hal qila olsa, hal qiladi.
+                    Aks holda shu "project" da ishlayotgan "Team Lead" ga aytadi. "Team Lead" ham shu holat. Agar
+                    hal qilib bera olmasa, A dasturchiga aytadi. A dasturchi ham qila olsa, hal qiladi. Agar kodga
+                    tushunmasa, B dasturchiga aytadi. B dasturchida ham shu. Shu sikl  muammo hal bo'lguncha yoki
+                    muammoni hal qilishi mumkun bo'lgan kadrlar tugaguncha davom etadi. Natija mijozga to'g'ridan to'g'ri ko'rinadi.
+
+    Shu vaziyat dasturlashda "Chain Of Responsibility Design Pattern" deyiladi.
+
+    Problems:
+                Agar bu "pattern" bo'lmaganida, mijoz muammosini hal qilish uchun operator, "project manager", "team lead",
+                A dasturchi, B dasturchiga o'zi birma - bir telefon qilishi kerak edi. Buning uchun mijozda har birining "contact" i
+                bo'lishi kerak bo'lardi.
+
