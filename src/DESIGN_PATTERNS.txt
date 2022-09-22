@@ -17,3 +17,20 @@
                 A dasturchi, B dasturchiga o'zi birma - bir telefon qilishi kerak edi. Buning uchun mijozda har birining "contact" i
                 bo'lishi kerak bo'lardi.
 
+     Used:
+                1. "Handling authentication" da.
+                2. "Servlet filters for handling HTTP requests." da.
+
+
+2. Command -
+    Explanation:
+
+    Problems:
+                "Microsoft Word" dasturida siz ishlayotgan hujjat bilan "save", "print", "delete" amallarini bajaradigan "button" lar bor.
+                Dastur tomondan qarasak, shu "button" lar bosilganda, "Button" obyektining "click" metodi ishlashi kerak va vaziyatga qarab,
+                "Document" obyektidagi "save",  "print", "delete" methodlari ham ishlashi kerak.  Shunga o'xshash muammolarni hal qilish
+                uchun "Command Design Pattern" ishlab chiqilgan.
+
+    Used:
+            1. "Undo/Redo operations" da.
+            2. "Queueing and Logging" da.
