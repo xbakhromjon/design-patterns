@@ -34,3 +34,21 @@
     Used:
             1. "Undo/Redo operations" da.
             2. "Queueing and Logging" da.
+
+2. Interpreter -
+    Explanation:
+                    O'z nomi bilan tarjimon "pattern" i, berilgan "context" ni bir nechta qoidalar asosida o'zimizga kerakli ko'rinishga keltirish
+                    uchun ishlatiladi. Va bu "handle" qilish bir joyda katta, tushunarsiz... ko'rinishda emas, "class" larda ichma - ich ko'rinishda
+                    bo'ladi.
+    Problems:
+                Misol uchun, dasturlash tillaridagi o'zgaruvchilarni yozish qoidasi bo'yicha "String context" ni tekshiirishimiz kerak.
+                Bunda "context" ga ishlov berib, uni "available" qilib qaytarishimiz kerak. Buni bitta methodda agar birinchi harf "_" bo'lsa,
+                olib tashla... desak bo'ladi. Lekin bu har doim ham "clean code" bo'lmaydi (shartni kam - ko'pligiga qarab). Bu muammoni
+                "Interpreter Patter" ni hal qiladi.
+
+    Used:
+            1. "Custom regular expression." larda
+            2. "Compilers" da.
+            3. "Language translator" da.
+            4. "SQL parsers" da
+            5. "Calculators" da
