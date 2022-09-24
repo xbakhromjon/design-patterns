@@ -52,3 +52,16 @@
             3. "Language translator" da.
             4. "SQL parsers" da
             5. "Calculators" da
+
+
+2. Iterator -
+    Explanation:
+                    Ma'lum bir turdagi obyektlarni "iteratsiya" ya'ni aylanib chiqish uchun ishlatiladi. Java oldindan yozilgan "Iterator"
+                    va "Iterable" "interface" laridan foydalanib bu "pattern" yaratiladi.
+    Problems:
+
+
+    Used:
+            1. Ma'lum bir turdagi obyektlarni aylanib chiqish uchun ishlatiladi.
+
+
