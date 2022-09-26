@@ -65,3 +65,16 @@
             1. Ma'lum bir turdagi obyektlarni aylanib chiqish uchun ishlatiladi.
 
 
+2. Memento -
+    Explanation:
+                    Misol uchun "text document" ga o'zgartirish kiritilyapti. Va "save" qilindi. Shunda "Text Document" ning contentini qayergadir saqlab
+                    qo'yilsa, keyinroq "text document" ga yana  o'zgartirish kiritilsa va o'zartirish xato bo'lib "undo" ya'ni bitta oldingi xolatga
+                    qaytarish kerak bo'lsa, o'sha saqlab qo'ygan joyimizdan olib "text document" ning contentiga berib qo'yaveramiz. Shu idea "memento pattern" iga
+                    misol bo'la oladi.
+    Problems:
+
+
+    Used:
+            1. "Undo" operatsiyasini bajarishda ishlatiladi.
+
+
