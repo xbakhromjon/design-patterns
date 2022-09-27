@@ -1,0 +1,12 @@
+                            Design Patterns
+1. Builder -
+    Explanation:
+        "Builder" "patter"ni obyektni ko'p keraksiz "field" lar bilan emas, faqatgina kerakli "field" lar bilan yaratishga imkon beradi.
+        Agar "class" ni ko'p "field" lari bo'lsa, har xil vaziyatda har xil "field" lar bilan obyekt kerak bo'lishi mumkun. Shunda har xil
+        kombinatsiyali "construktor" lar yaratilmaydi-da, shunchaki "builder" "pattern" i ishlatiladi.
+    Problems:
+
+1. Singleton -
+    Explanation:
+
+    Problems:
