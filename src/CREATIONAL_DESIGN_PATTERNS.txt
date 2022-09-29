@@ -10,3 +10,12 @@
     Explanation:
 
     Problems:
+
+
+1. Prototype -
+    Explanation:
+        Obyektlarni "clone" ni yaratishda uchun ishlatiladi. Javada "Cloneable" "interface" idan foydalaniladi.
+        "Mutable" (O'zgaruvchan) obyektlar bilan muammo bo'lishi mumkun. Ya'ni "clone" obyekt va original obyekt 1 ta "mutable" obyektga
+        murojaat qilishi mumkun agar "shallow copy" bo'lib qolsa. Buni oldini olish uchun "mutable" obyektlarni ham "clone" qilish kerak
+        bo'ladi.
+    Problems:
