@@ -19,3 +19,9 @@
         murojaat qilishi mumkun agar "shallow copy" bo'lib qolsa. Buni oldini olish uchun "mutable" obyektlarni ham "clone" qilish kerak
         bo'ladi.
     Problems:
+
+
+1. Factory -
+    Explanation:
+
+    Problems:

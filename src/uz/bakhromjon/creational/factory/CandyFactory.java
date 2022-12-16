@@ -1,7 +1,6 @@
 package uz.bakhromjon.creational.factory;
 
 import java.util.List;
-import java.util.SplittableRandom;
 
 /**
  * @author : Bakhromjon Khasanboyev
